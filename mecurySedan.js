@@ -34,8 +34,9 @@ let mercurySedan = new Mercury("Mercury","Sedan",1965,"blue",3000,6,0,4,200,100,
 console.log(mercurySedan)
 
 
-// checking that methods are accessible through console.log
+// calling methods for test
 mercurySedan.checkScheduleService()
 mercurySedan.loadPassenger(1)
-console.log(mercurySedan.availableRoom)
+// checking that methods are accessible through console.log
 console.log(mercurySedan.scheduleService)
+console.log(mercurySedan.availableRoom)
